@@ -1,0 +1,10 @@
+
+<% types = ["Pastor", "Carnita", "Pollo", "Asada"]%>
+
+<h1> Tacos Tacos </h1>
+<p> There are <%= types.size %> many types of tacos </p>
+<ul> 
+    <% for type in types %>
+    <li> <%= type %> </li>
+        <% end %>
+</ul>
